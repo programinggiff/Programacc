@@ -22,7 +22,7 @@ int main(){
     soma = numero1 + numero2;
     //operacao subtracao
     subtracao = numero1 - numero2;
-    //operacao multilicacao
+    //operacao multiplicacao
     mutiplicao = numero1 * numero2;
     //operacao divisao
     divisao = numero1 / numero2;

@@ -16,13 +16,28 @@ printf("Antes Incremento: %d\n", numero1);
 //numero1 +=1;
 //Pós Incremento:
 //resultado = numero1;
-//numero
+//numero++;
 resultado = numero1++;
 //printf("Apos Incremento: %d\n", numero1);
 printf("Apos Pós-Incremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
+
+
+resultado = ++numero1;
+//printf("Apos Incremento: %d\n", numero1);
+printf("Apos Pré-Incremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
+
+
+
 //numero1 = numero1 -1;
-//numero1 -=1;
-numero1--;
+//numero1 -= 1;
+//numero1--;
 //printf("Apos Decremento: %d\n", numero1);
+resultado = numero1--;
+printf("Apos Pós-decremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
+
+resultado = --numero1;
+printf("Apos Pré-decremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
+
+
 
 }

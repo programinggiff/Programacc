@@ -8,7 +8,15 @@ int main(){
     float produto = x * y;
     float quoeficiente = x / y; //Divisão de ponto flutante
 
+    printf("Soma: %.2f\n", soma);
+    printf("Difereça: %.2f\n", diferenca);
+    printf("Produto: %.2f\n", produto);
+    printf("Quoeficiente: %.2f\n", quoeficiente);
 
+
+
+
+    return 0;
 
 
 }    
